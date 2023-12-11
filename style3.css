@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: blanchedalmond;
+}
+img{
+
+    border-radius: 50px;
+    width: 50%;
+}
+
+
+
+
+section {
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color:purple;
+}
+
+p {
+    color: rgb(4, 4, 255);
+}

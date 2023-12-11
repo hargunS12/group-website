@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffcffb; 
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #ffffff; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.name h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-weight: bold;
+    }
+
+    .name a{
+        text-decoration: none;
+    }
+body{
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/hydrangea-3659614_1280.jpg);
+        background-position : center;
+        background-size : cover; 
+        position : relative; 
+    }    
+
+.job {
+    background-color: #000000;
+    padding: 0px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job button {
+    background-color: #e282f5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.job button:hover {
+    background-color: #e282f5;
+}
+
+.detail-box {
+    background-color: #f7d0ff98;
+    border: 1px solid #e282f5;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+
+

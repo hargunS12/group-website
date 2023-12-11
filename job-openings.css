@@ -1,0 +1,274 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/tulips-2254970_1280.jpg);
+    background-position : center;
+    background-size : cover; 
+    position : relative;
+}
+
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-links{
+    flex:1;
+    text-align:right ;
+}
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:white;
+    text-decoration:none;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-links ul li::after{
+    content: '' ;
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    }
+
+    .name h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #ffffff;
+        font-weight: bold;
+        }
+
+        .name a{
+            text-decoration: none;
+        }
+
+        .main{
+            font-family: cursive;
+        }
+
+
+ .text-box{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Poppins', sans-serif;
+    width:90%;
+    color:#fff;
+    position:absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}   
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin:40px 0 40px;
+    font-size:20px;
+    font-weight: 700;
+    color:#fff;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration:  none;
+    color:#fff;
+    border:1px solid #fff ;
+    padding: 8px 26px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+}
+.hero-btn:hover{
+    border:1px solid #0e0d0d;
+    background: rgb(241, 156, 223);
+    color: black;
+    transition: .5s;
+}
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+        }
+    
+
+ .nav-links  ul li{
+    display:block;
+}
+.nav-links{
+    position: absolute;
+    background: #f44336;
+    height:100vh;
+    width:200px;
+    top:0;
+    right: -200px;
+    text-align: left;
+    z-index:2;
+    transition: 1s;
+}
+    nav .fa{
+        display: block;
+        color:#fff;
+        margin:10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding:30px;
+
+    }
+}  
+
+.job1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(11, 12, 12, 0.7),rgba(11, 12, 12, 0.7)),url(images/gratisography-116H-free-stock-photo.jpg);
+    background-position : center;
+    background-size : cover; 
+    position : relative;
+}
+
+.job-text{
+    color:#fff;
+    position:absolute;
+    margin-top: 0px;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(23, 23, 24, 0.288);
+    background-position: center;
+    min-height: 100vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}   
+.job-text{
+    color:#fff;
+    position:absolute;
+    margin-top: 0px;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(230, 230, 250, 0.178);
+    background-position: center;
+    min-height: 100vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}   
+
+.job-text h1{
+    font-size: 4rem;
+    color: #fff;
+}
+
+.job-text h2{
+    font-size: 45px;
+    margin-top: 10px;
+}
+.p1{
+    margin-top: 40px;
+    gap: 5px;
+    font-size: 2rem;
+    color:#fff;
+}
+
+.p2{
+    margin-top: 40px;
+    gap: 5px;
+    font-size:25px;
+    color:#fff;
+}
+
+.p3{
+    margin-top: 10px;
+    gap: 5px;
+    font-size:25px;
+    color:#fff;
+}
+
+.apply-btn{
+    margin-top: 30px;
+    display: inline-block;
+    text-decoration:  none;
+    color:#fff;
+    border:1px solid #fff ;
+    padding: 10px 30px;
+    font-size: 30px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.apply-btn:hover{
+    background-color: rgb(88, 149, 241);
+    font-weight: bold;
+    transition: .5s;
+}
+
+
+
+.job2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(11, 12, 12, 0.7),rgba(11, 12, 12, 0.7)),url(images/pexels-norma-mortenson-4391228.jpg);
+    background-position : center;
+    background-size : cover; 
+    position : relative;
+}
+
+
+.job3{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(11, 12, 12, 0.7),rgba(11, 12, 12, 0.7)),url(images/pexels-amina-filkins-5410071.jpg);
+    background-position : center;
+    background-size : cover; 
+    position : relative;
+}
+
+.top {
+    place-self:end;
+    text-decoration: none;
+    padding: 17px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+    position: sticky;
+    bottom: 20px; 
+    margin-top:100vh;
+    --offset: 100px; 
+    margin-top: calc(100vh + var(--offset));
+    white-space:nowrap;
+    font-size: 25px;
+  }
+  body {
+    display: grid;
+    grid-template-columns: auto 0px;
+  }
